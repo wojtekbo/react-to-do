@@ -17,7 +17,7 @@ const Column = (props) => {
       </h2>
       <ul className={styles.cards}>
         {cards.map((card) => (
-          <Card key={card.id} columnId={card.columnId} title={card.title} />
+          <Card key={card.id} isFavorite={card.isFavorite} columnId={card.columnId} title={card.title} id={card.id} />
         ))}
       </ul>
       <CardForm columnId={props.columnId} />
