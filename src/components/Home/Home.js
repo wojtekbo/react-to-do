@@ -1,15 +1,15 @@
 import React from 'react';
 import Hero from '../Hero/Hero';
-import List from '../List/List';
-import SearchForm from '../SearchForm/SearchForm';
+import ListForm from '../ListForm/ListForm';
+import Lists from '../Lists/Lists';
 import style from './Home.module.scss';
 
 function Home(props) {
   return (
     <div className={style.home}>
       <Hero />
-      <SearchForm />
-      <List />
+      <Lists />
+      <ListForm />
     </div>
   );
 }

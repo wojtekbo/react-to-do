@@ -27,11 +27,13 @@
 .link {
   text-decoration: none;
   margin-left: 10px;
-  a {
-    text-decoration: none;
-    color: $color-light;
-    &:hover {
-      color: $color-warning;
-    }
+  color: $color-light;
+  &:hover {
+    color: $color-warning;
   }
+}
+
+.linkActive {
+  color: $color-warning;
+  text-decoration: none;
 }
